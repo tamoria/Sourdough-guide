@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>    
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<script src="https://kit.fontawesome.com/00a8155432.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="index.css">
+<title>Karen's Sourdough Guide</title>
+</head>
+<body>
+
+    <!-- Main Panel -->
+
+     <section class="background-panel">
+        <div class="container-cover">
+            <img class="background" src="static/Mixed Breads.jpg" alt="Mixed breads" style="width:100%;">
+            <div class="centered">Welcome to Your Sourdough Guide</div>
+          </div>
+    </section>
+   
+    <!-- Accordian Panel -->
+
+    <section id="classes" class="p-10 p-lg-0 lg-10 text-center text-sm-start shadow-lg">
+        <div class="container mt-10 p-5">
+            <h2 id="section-header" class="text-center p-5">Sourdough Guide</h2>
+            <div id="accordion">
+                <div class="card">
+                  <div class="card-header" id="headingOne">
+                    <h5 class="mb-0">
+                      <button id="class-names" class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        How to Feed your Starter
+                      </button>
+                    </h5>
+                  </div>         
+                  <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                    <div class="card-body">
+                      <a href="https://www.youtube.com/watch?v=F_JUiMqWybM" target="_blank">How to Feed Your Starter Video</a>
+                      <p>When feeding your starter, you may use any flour you want. Currently, your starter feeds on organic whole wheat flour. If you
+                        ever want to change it, you may do so gradually. Switch out the flour little by little during 4 to 5 days. 
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingTwo">
+                    <h5 class="mb-0">
+                      <button id="class-names" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        How to Prepare Your Starter for Making Bread
+                      </button>
+                    </h5>
+                  </div>
+                  <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                    <div class="card-body">
+                      <p>When using your starter, you want to make sure it is well-fed and healthy. Feed your starter 10 to 12 hours before use 
+                        and let it sit out on the kitchen counter in room temperature.</p> 
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingThree">
+                    <h5 class="mb-0">
+                      <button id="class-names" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Bread Loaf Recipes
+                      </button>
+                    </h5>
+                  </div>
+                  <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                    <div class="card-body">
+                      <p>Sourdough Sandwich Bread (Pain de Mie)</p>
+                      <img id="perfect_loaf" src="static/pain_de_mie.JPG" alt="">
+                    </div>
+                    <div>
+                      <a href="https://www.youtube.com/watch?v=QXuvnT2shY0&t=1111s" target="_blank">Video</a>
+                    </div>
+                    <div>
+                      <a href="https://www.theperfectloaf.com/pain-de-mie/#tasty-recipes-15813-jump-target" target="_blank">Recipe</a>
+                    </div>
+                      <p>No Knead Sandwich Bread</p>
+                      <img id="no_knead" src="static/no_knead_loaf.JPG" alt="No Knead Loaf">
+                    <div>
+                      <img src="static/no_knead_loaf_ingredients.JPG" alt="No Knead Loaf">
+                    </div>
+                    <div>
+                      <a href="https://www.youtube.com/watch?v=SFFqaxFs8UI&t=305s" target="_blank">Video</a>
+                  </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingFour">
+                      <h5 class="mb-0">
+                        <button id="class-names" class="btn btn-link" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+                          Cinnamon Bread Recipe
+                        </button>
+                      </h5>
+                    </div>
+                    <div id="collapseFour" class="collapse show" aria-labelledby="headingFour" data-parent="#accordion">
+                      <div class="card-body">
+                        <img id="cinnamon" src="static/cinnamon_bread.JPG" alt="Cinnamon Bread"></img>
+                        <p>This recipe makes two loafs. Cut ingredients by half to make one loaf!</p>
+                        <img id="cinnamon_recipe" src="static/cinnamon_bread_recipe.JPG" alt="Cinnamon Bread Recipe">
+                        <a href="https://www.youtube.com/watch?v=mYwWrzmjQys" target="_blank">Video</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header" id="headingFive">
+                      <h5 class="mb-0">
+                        <button id="class-names" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                          Starter Discard Recipes
+                        </button>
+                      </h5>
+                    </div>
+                    <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
+                      <div class="card-body">
+                        <img id="discard" src="static/starter_discard_recipes.JPG" alt="Starter Discard Recipes">
+                      </div>
+                      <div>
+                        <a href="https://www.kingarthurbaking.com/recipes/collections/sourdough-discard-recipes" target="_blank">King Arthur Recipes!</a>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>    
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+</body>
+</html>

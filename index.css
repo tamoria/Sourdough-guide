@@ -1,0 +1,188 @@
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 35px;
+    font-weight: 700;
+    color: white;
+    font-family: Lucida Handwriting;
+  }
+
+  p {
+    font-family: Lucida;
+    font-size: 20px;
+  }
+
+  a {
+    font-family: Lucida;
+    font-size: 20px;
+    color: blue;
+  }
+
+#section-header {
+    font-weight: 700;
+    margin-top: -60px;
+    margin-bottom: -20px;
+    font-size: 40px;
+    font-family: 'Lucida Handwriting';
+}
+#classes {
+    background-color: rgb(255, 173, 59);
+}
+
+#class-names {
+    font-family:Lucida Handwriting;
+    color:rgb(251, 122, 16);
+    font-size: 20px; 
+    font-weight: 700;
+}
+
+#perfect_loaf {
+    width: 70%;
+    display: block;
+    margin:auto;
+}
+
+#no_knead {
+    width: 40%;
+    display: block;
+    margin:auto;
+}
+
+#cinnamon {
+    width: 70%;
+    display: block;
+    margin:auto;
+    margin-bottom: 20px;
+}
+
+#cinnamon_recipe {
+    width: 100%;
+    display: block;
+    margin:auto;
+}
+
+#discard {
+    width: 70%;
+    display: block;
+    margin:auto;
+}
+
+.space-tile {
+    width: 100%;
+    height: 100%;
+}
+
+.rooms {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.room-image-container {
+    flex: 0 0 calc(33.33% - 20px);
+    margin: 10px;
+    text-align: center; 
+}
+
+.room-image-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+.image-text {
+    margin-top: 5px;
+}
+
+/* Contact Panel */
+
+#contact {
+    background-color: rgba(67, 117, 128, 0.711);
+}
+
+.img-fluid {
+    margin-bottom: 30px;
+}
+
+.foothead {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    font: 0.6em;
+    margin-left: 30px;
+    color: black
+}
+
+.tiny {
+    color: black;
+}
+
+/* Sign-in-panel */
+
+#sign-in-box {
+    border: 3px solid lightgray;
+    border-radius: 3px;
+    border-width: 3px;
+    width: 500px;
+    height: 500px;
+    margin-left: 70px;
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.sign-in-image {
+    height: 650px;
+    margin-left: 80px;
+}
+
+.sign-in-title {
+    margin-left: 15px;
+    font-weight: 700;
+    color:rgb(114, 123, 173);
+}
+#Need {
+    color: blue;
+    font-size: small;
+    text-align: left;
+    margin-left: 20px;
+}
+
+
+ul {
+    list-style-type: none;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    display: inline;
+    color: blue;
+    font-size: x-small;
+    margin: 10px;
+}
+
+input {
+    background-color: white;
+    width: 93%;
+    height: 25px;
+}
+
+
+form {
+    color: black;
+    padding: 2px;
+    background-color: rbg(104, 133, 103);
+    border-radius: 5px;
+    margin-left: 20px;
+    line-height: 1.8;
+    
+}
+
